@@ -48,7 +48,7 @@ CREATE TABLE HockeyTeam (
 CREATE TABLE HockeyTeamPlayer (
     id int(16) NOT NULL,
     hockeyTeamId int(13) NOT NULL,
-    firtName text(13) NOT NULL,
+    firstName text(13) NOT NULL,
     lastName text(13) NOT NULL,
     jerseyNum int(13) NOT NULL,
     position varchar(16) NOT NULL,
