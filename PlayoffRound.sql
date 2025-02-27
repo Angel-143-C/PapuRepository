@@ -57,7 +57,7 @@ CREATE TABLE HockeyTeamPlayer (
 
 CREATE TABLE UserInfo (
     id int(16) NOT NULL,
-    firtsName text(13) NOT NULL,
+    firstName text(13) NOT NULL,
     lastName text(13) NOT NULL,
     email varchar(13) NOT NULL,
     round1Points int(13) NOT NULL,
