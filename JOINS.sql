@@ -1,4 +1,4 @@
-selet f* from AUTHORS INNER Join BOOKS on AUTHORS.ID = BOOKS.AUTHORID;
+select * from AUTHORS INNER Join BOOKS on AUTHORS.ID = BOOKS.AUTHORID;
 +----+----------+----+--------+-------+------------+----------+
 | ID | NAME     | ID | NAME   | PRICE | CATEGORYID | AUTHORID |
 +----+----------+----+--------+-------+------------+----------+
