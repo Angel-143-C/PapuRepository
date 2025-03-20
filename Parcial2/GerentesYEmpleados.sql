@@ -21,8 +21,3 @@ SELECT e.Id_empleado, e.Id_gerente, e.Puesto,
        END AS Nivel
 FROM Empleados e
 ORDER BY Nivel, Id_gerente;
-
-SELECT o.Id_cliente, o.Id_Orden, o.Estado_Destino, o.Costo
-FROM Ordenes o
-WHERE o.Estado_Destino = 'CDMX'
-ORDER BY o.Id_cliente, o.Id_Orden;
