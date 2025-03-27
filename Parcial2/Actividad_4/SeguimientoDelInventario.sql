@@ -1,6 +1,6 @@
 CREATE TABLE Inventario (
     Fecha varchar(18) NOT NULL,
-    Ajuste int(14),
+    Ajuste int NOT NULL,
     PRIMARY KEY(Fecha,Ajuste)
 );
 
